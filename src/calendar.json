@@ -781,15 +781,7 @@
         "monthName": "mai",
         "dayName": "torsdag",
         "date": 8,
-        "events": [{
-            "summary": "Løvstakken fellestrening ",
-            "start": {
-                "dateTime": "2014-05-08T18:00:00+02:00"
-            },
-            "end": {
-                "dateTime": "2014-05-08T19:00:00+02:00"
-            }
-        }]
+        "events": []
     },
     {
         "monthName": "mai",
@@ -821,15 +813,7 @@
         "monthName": "mai",
         "dayName": "mandag",
         "date": 12,
-        "events": [{
-            "summary": "Løvstakken fellestrening ",
-            "start": {
-                "dateTime": "2014-05-12T18:00:00+02:00"
-            },
-            "end": {
-                "dateTime": "2014-05-12T19:00:00+02:00"
-            }
-        }]
+        "events": []
     },
     {
         "monthName": "mai",
@@ -871,15 +855,7 @@
         "monthName": "mai",
         "dayName": "mandag",
         "date": 19,
-        "events": [{
-            "summary": "Løvstakken fellestrening ",
-            "start": {
-                "dateTime": "2014-05-19T18:00:00+02:00"
-            },
-            "end": {
-                "dateTime": "2014-05-19T19:00:00+02:00"
-            }
-        }]
+        "events": []
     },
     {
         "monthName": "mai",
@@ -938,15 +914,7 @@
         "monthName": "mai",
         "dayName": "mandag",
         "date": 26,
-        "events": [{
-            "summary": "Løvstakken fellestrening ",
-            "start": {
-                "dateTime": "2014-05-26T18:00:00+02:00"
-            },
-            "end": {
-                "dateTime": "2014-05-26T19:00:00+02:00"
-            }
-        }]
+        "events": []
     },
     {
         "monthName": "mai",
@@ -1456,15 +1424,7 @@
         "monthName": "august",
         "dayName": "fredag",
         "date": 15,
-        "events": [{
-            "summary": "Påmeldingsfrist Askøy Extreme ",
-            "start": {
-                "date": "2014-08-15"
-            },
-            "end": {
-                "date": "2014-08-16"
-            }
-        }]
+        "events": []
     },
     {
         "monthName": "august",
@@ -1512,13 +1472,29 @@
         "monthName": "august",
         "dayName": "lørdag",
         "date": 23,
-        "events": []
+        "events": [{
+            "summary": "Viking Race 5K (2014)",
+            "start": {
+                "date": "2014-08-23"
+            },
+            "end": {
+                "date": "2014-08-24"
+            }
+        }]
     },
     {
         "monthName": "august",
         "dayName": "søndag",
         "date": 24,
-        "events": []
+        "events": [{
+            "summary": "Viking Race 10K (2014)",
+            "start": {
+                "date": "2014-08-24"
+            },
+            "end": {
+                "date": "2014-08-25"
+            }
+        }]
     },
     {
         "monthName": "august",
@@ -1743,15 +1719,7 @@
         "monthName": "september",
         "dayName": "torsdag",
         "date": 25,
-        "events": [{
-            "summary": "Berlin Marathon 2011",
-            "start": {
-                "date": "2014-09-25"
-            },
-            "end": {
-                "date": "2014-09-26"
-            }
-        }]
+        "events": []
     },
     {
         "monthName": "september",
