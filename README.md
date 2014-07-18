@@ -12,14 +12,14 @@ There are currently two gulp-tasks, one for creating the calendar json-file, and
 
 There’s also a simple server which compiles the html on the fly.
 
-To run the server
+To run the server on port 8000
 
 ```bash
 nodemon
 ```
 
 To run the gulp tasks, you’ll have to first create a service account, generate a key and then generate and secure a pem file.
-Follow steps 3, 4, 5 in [Accessing Google Spreadsheets][] from Node.js by Nicholas C. Zakas and also the instructions at the bottom of the page on how to secure the PEM file.
+Follow steps 3, 4, 5 in [Accessing Google Spreadsheets from Node.js][] by Nicholas C. Zakas and also the instructions at the bottom of the page on how to secure the PEM file.
 Then share one of your calendars with your service account, and replace the calendarId in the getEvents function.
 
 ```js
@@ -44,6 +44,18 @@ To generate a static html-file with the events in a table:
 ```bash
 gulp createHtml
 ```
+
+## Resources
+
+* [Accessing Google Spreadsheets from Node.js][]
+* [Google Calendar API](https://developers.google.com/google-apps/calendar/)
+* [Google api nodejs client](https://github.com/google/google-api-nodejs-client/)
+* [Google api jwt example](https://github.com/google/google-api-nodejs-client/blob/master/examples/jwt.js)
+* [Google APIs Client Library for JavaScript ](https://developers.google.com/api-client-library/javascript/)
+* [Moment.js](http://momentjs.com/docs/)
+* [Nodemon](https://github.com/remy/nodemon#nodemon)
+
+
 **Disclaimer! The generated calendar.json and calendar.html files in this repository is from a calendar I keep for keeping my eyes on interesting races. Some of the dates are from recurring yearly events and might be on the wrong day of the week.**
 
-[Accessing Google Spreadsheets]: http://www.nczonline.net/blog/2014/03/04/accessing-google-spreadsheets-from-node-js/
+[Accessing Google Spreadsheets from Node.js]: http://www.nczonline.net/blog/2014/03/04/accessing-google-spreadsheets-from-node-js/
