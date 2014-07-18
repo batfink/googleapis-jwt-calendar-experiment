@@ -1,0 +1,3 @@
+{
+    "watch": ["template/template.html", "server.js", "dest/json/*.json", "helpers.js"]
+}

@@ -1,0 +1,2906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendar</title>
+    <style>
+
+        body, td, th {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: HelveticaNeue;
+            font-size: 13px;
+        }
+
+        table { border-collapse: collapse }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th {
+            padding: 3px;
+        }
+
+        td {
+            width: 80px; height: 80px;
+            min-width: 80px;
+            max-width: 80px;
+            max-height: 80px;
+            padding: 0;
+            vertical-align: top;
+            overflow: hidden;
+
+        }
+
+        td, th {
+            background: white;
+        }
+
+        td:empty, body {
+            background: #999;
+        }
+
+
+        tr:nth-child(odd) th,
+        tr:nth-child(odd) td:not(:empty) {
+            background: #ddd;
+        }
+
+        .day {
+            background: silver;
+            padding: 1px 2px;
+        }
+
+        .event {
+            margin: 2px;
+            text-overflow: ellipsis;
+            width: 80px;
+        }
+
+        .today {
+            outline: 4px solid red;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Løp 2014</h1>
+
+    
+
+
+    <table>
+
+        <tbody>
+
+        <tr>
+            <th></th>
+            
+                
+                    <th>
+                        1
+                    </th>
+                
+                    <th>
+                        2
+                    </th>
+                
+                    <th>
+                        3
+                    </th>
+                
+                    <th>
+                        4
+                    </th>
+                
+                    <th>
+                        5
+                    </th>
+                
+                    <th>
+                        6
+                    </th>
+                
+                    <th>
+                        7
+                    </th>
+                
+                    <th>
+                        8
+                    </th>
+                
+                    <th>
+                        9
+                    </th>
+                
+                    <th>
+                        10
+                    </th>
+                
+                    <th>
+                        11
+                    </th>
+                
+                    <th>
+                        12
+                    </th>
+                
+                    <th>
+                        13
+                    </th>
+                
+                    <th>
+                        14
+                    </th>
+                
+                    <th>
+                        15
+                    </th>
+                
+                    <th>
+                        16
+                    </th>
+                
+                    <th>
+                        17
+                    </th>
+                
+                    <th>
+                        18
+                    </th>
+                
+                    <th>
+                        19
+                    </th>
+                
+                    <th>
+                        20
+                    </th>
+                
+                    <th>
+                        21
+                    </th>
+                
+                    <th>
+                        22
+                    </th>
+                
+                    <th>
+                        23
+                    </th>
+                
+                    <th>
+                        24
+                    </th>
+                
+                    <th>
+                        25
+                    </th>
+                
+                    <th>
+                        26
+                    </th>
+                
+                    <th>
+                        27
+                    </th>
+                
+                    <th>
+                        28
+                    </th>
+                
+                    <th>
+                        29
+                    </th>
+                
+                    <th>
+                        30
+                    </th>
+                
+                    <th>
+                        31
+                    </th>
+                
+            
+        </tr>
+
+        
+            <tr>
+                <th>januar</th>
+
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+
+            </tr>
+        
+            <tr>
+                <th>februar</th>
+
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    <td></td>
+                
+                    <td></td>
+                
+                    <td></td>
+                
+
+            </tr>
+        
+            <tr>
+                <th>mars</th>
+
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+
+            </tr>
+        
+            <tr>
+                <th>april</th>
+
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                            <div class="event">Bergen City Maraton</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    <td></td>
+                
+
+            </tr>
+        
+            <tr>
+                <th>mai</th>
+
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                            <div class="event">Straumemila</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                            <div class="event">Løvstakken fellestrening </div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                            <div class="event">Holmenkollstafetten</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                            <div class="event">Løvstakken fellestrening </div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                            <div class="event">Løvstakken fellestrening </div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                            <div class="event">Dronningen opp 2014?</div>
+                        
+                            <div class="event">Syvfjellsturen</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                            <div class="event">Løvstakken fellestrening </div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                            <div class="event">Løvstakken opp 2014</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+
+            </tr>
+        
+            <tr>
+                <th>juni</th>
+
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                            <div class="event">Bergen Fjellmaraton 2014</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    <td></td>
+                
+
+            </tr>
+        
+            <tr>
+                <th>juli</th>
+
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td class="today">
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+
+            </tr>
+        
+            <tr>
+                <th>august</th>
+
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                            <div class="event">Møkster maraton</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                            <div class="event">Påmeldingsfrist Askøy Extreme </div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                            <div class="event">Styrkeprøven Rett Vest</div>
+                        
+                            <div class="event">Askøy Extreme 2014</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+
+            </tr>
+        
+            <tr>
+                <th>september</th>
+
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                            <div class="event">Lyderhorn opp 2014</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                            <div class="event">Fanamilen</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                            <div class="event">Berlin Marathon 2011</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                            <div class="event">Stolzen opp 2014</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    <td></td>
+                
+
+            </tr>
+        
+            <tr>
+                <th>oktober</th>
+
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+
+            </tr>
+        
+            <tr>
+                <th>november</th>
+
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    <td></td>
+                
+
+            </tr>
+        
+            <tr>
+                <th>desember</th>
+
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">torsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">fredag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">lørdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">søndag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">mandag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">tirsdag</div>
+                        
+                    </td>
+                    
+                
+                    
+                    <td>
+                        <div class="day">onsdag</div>
+                        
+                    </td>
+                    
+                
+
+            </tr>
+        
+    </tbody>
+    </table>
+
+
+</body>
+</html>

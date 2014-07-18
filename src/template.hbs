@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendar</title>
+    <style>
+
+        body, td, th {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: HelveticaNeue;
+            font-size: 13px;
+        }
+
+        table { border-collapse: collapse }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th {
+            padding: 3px;
+        }
+
+        td {
+            width: 80px; height: 80px;
+            min-width: 80px;
+            max-width: 80px;
+            max-height: 80px;
+            padding: 0;
+            vertical-align: top;
+            overflow: hidden;
+
+        }
+
+        td, th {
+            background: white;
+        }
+
+        td:empty, body {
+            background: #999;
+        }
+
+
+        tr:nth-child(odd) th,
+        tr:nth-child(odd) td:not(:empty) {
+            background: #ddd;
+        }
+
+        .day {
+            background: silver;
+            padding: 1px 2px;
+        }
+
+        .event {
+            margin: 2px;
+            text-overflow: ellipsis;
+            width: 80px;
+        }
+
+        .today {
+            outline: 4px solid red;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Løp 2014</h1>
+
+    {{fiddle}}
+
+
+    <table>
+
+        <tbody>
+
+        <tr>
+            <th></th>
+            {{#with [0]}}
+                {{#.}}
+                    <th>
+                        {{ date }}
+                    </th>
+                {{/.}}
+            {{/with}}
+        </tr>
+
+        {{#. }}
+            <tr>
+                <th>{{ 0.monthName }}</th>
+
+                {{#.}}
+                    {{#if dayName}}
+                    <td{{#if today}} class="today"{{/if}}>
+                        <div class="day">{{dayName}}</div>
+                        {{#events}}
+                            <div class="event">{{summary}}</div>
+                        {{/events}}
+                    </td>
+                    {{else}}<td></td>{{/if}}
+                {{/.}}
+
+            </tr>
+        {{/.}}
+    </tbody>
+    </table>
+
+
+</body>
+</html>
